@@ -1,0 +1,24 @@
+:root{
+--primario: #9c27b0;
+--primarioOscuro: #89119D;
+--secundario: #FFCE00;
+--secundarioOscuro: rgb(233,287,2);
+--blanco: #fff;
+--negro: #000;
+
+
+--fuentePrincipal: 'Staatliches', cursive;
+}
+
+/* Normales */
+
+
+/* Globales */
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
